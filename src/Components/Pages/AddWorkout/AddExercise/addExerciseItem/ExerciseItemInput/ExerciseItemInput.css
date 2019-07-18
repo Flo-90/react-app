@@ -1,0 +1,29 @@
+.exerciseinput-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;  
+}
+
+.exerciseinput-container span {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    flex-basis: 0;
+}
+
+.exerciseinput-container span p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.exerciseinput-container .addexercise-input {
+    text-align: center;
+    border-bottom: solid 1px #1DE3AE;
+    margin-bottom: 16px;
+    color: #1DE3AE !important;
+    min-width: 50px;
+}
+
+.exerciseinput-container input::placeholder {
+    color: #1DE3AE !important;
+}

@@ -1,0 +1,42 @@
+.addexercise-itemlist .accordion-item {
+    background-color: #212A49; 
+    border-top: solid 1px rgba(29, 227, 174, 0.1);
+}
+
+.addexercise-listitem .accordion-item-content {
+    background-color: green !important;
+}
+
+.item-inner::before {
+    content: '+' !important;
+    position: absolute;
+    width: 20px !important;
+    top: 0px;
+    right: 30px;
+    font-size: 20px;
+    color: #1DE3AE !important;
+    display: block;
+}
+
+.accordion-item-opened {
+    background-color: #29345A !important;
+}
+
+.addexercise-itemlist .accordion-item .item-link {
+    color: #fff;
+}
+
+.item-after span {
+   color: rgba(255, 255, 255, 0.5); 
+   font-weight: 100;
+   font-size: 12px;
+   padding-right: 30px;
+}
+
+.addexercise-itemlist .accordion-item:last-child {
+    border-bottom: solid 1px rgba(29, 227, 174, 0.1);
+}
+
+.swipeout-actions-right .swipeout-delete {
+    max-height: 48px;
+}

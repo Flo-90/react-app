@@ -1,0 +1,17 @@
+.md .dialog, .dialog-input {
+    background-color: #212a49 !important;
+    color: #fff;
+}
+
+.dialog-text, .dialog-title {
+    color: #1DE3AE !important;
+}
+
+.dialog-title {
+    font-size: 16px !important;
+}
+
+
+.md .input:not(.input-outline)::after {
+    background-color: rgba(29, 227, 174, 1) !important;
+}

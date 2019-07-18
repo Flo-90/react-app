@@ -1,0 +1,18 @@
+.add-workout-btn-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #1C233D;
+}
+
+.add-workout-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #1DE3AE;
+    margin: -25px auto 0 auto;
+}

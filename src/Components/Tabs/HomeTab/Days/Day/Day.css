@@ -1,0 +1,29 @@
+.row {
+   border-bottom: solid 1px rgba(29, 227, 174, 0.1);
+   height: 14.1%;
+}
+
+.row:last-child {
+border-bottom: none;
+}
+
+.col-20 {
+    height: 100%;
+    border-right: solid 1px rgba(29, 227, 174, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(29, 227, 174, 0.5);
+    font-size: 16px;
+}
+
+.col-80 {
+    height: 100%;
+    /*background-color: #252F51;*/
+    padding-left: 16px;
+}
+
+.col-80 select {
+    height: 100%;
+    width: 100%;
+}

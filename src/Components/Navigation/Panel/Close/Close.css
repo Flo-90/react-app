@@ -1,0 +1,8 @@
+.close-btn {
+    height: 20%;
+}
+
+.close-btn img {
+    cursor: pointer;
+    padding: 20px;
+}

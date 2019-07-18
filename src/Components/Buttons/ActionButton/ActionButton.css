@@ -1,0 +1,13 @@
+.action-button {
+    padding: 15px 10px;
+    color: #1DE3AE;
+    background-color: #1C233D;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    z-index: 9999;
+    outline: none;
+    border: none;
+}

@@ -1,0 +1,17 @@
+.panel-links {
+    height: 100%;
+    background-color: #1C233D;
+}
+
+.panel-links-container {
+    width: 50%;
+    margin: auto;
+}
+
+.panel-links-container .link {
+    display: block;
+    padding: 15px 0;
+    color: #1DE3AE;
+    font-size: 16px;
+    font-weight: 400;
+}
